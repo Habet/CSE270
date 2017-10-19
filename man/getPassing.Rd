@@ -4,14 +4,14 @@
 \alias{getPassing}
 \title{NBA players passing statistics}
 \usage{
-getPassing(year, playerID, seasonType)
+getPassing(year, playerID, seasonType = "Regular")
 }
 \arguments{
 \item{year}{The season year, i.e. 2011 for the season 2010-2011}
 
 \item{playerID}{The player ID from NBA database.}
 
-\item{seasonType}{Regular, Playoffs}
+\item{seasonType}{Regular, Playoffs, default is Regular}
 }
 \value{
 dataframe with players passing statistics

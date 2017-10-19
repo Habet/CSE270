@@ -4,16 +4,17 @@
 #' @description Gets players passing statistics for the given season
 #' @param year The season year, i.e. 2011 for the season 2010-2011
 #' @param playerID The player ID from NBA database.
-#' @param seasonType Regular, Playoffs
+#' @param seasonType Regular, Playoffs, default is Regular
 #' @importFrom jsonlite fromJSON
 #' @return dataframe with players passing statistics
 #' @export
 
-getPassing<-function(year, playerID, seasonType){
+getPassing<-function(year, playerID, seasonType="Regular"){
   y<-paste(year-1, "-", substr(year, 3,4), sep="")
-  if (seasonType=="Regular")
-  {
+  if (seasonType=="Regular"){
     seasont<-paste('SeasonType=', "Regular+Season&", sep="")
+  } else{
+    seasont<-paste('SeasonType=', "Playoffs&", sep="")
   }
 
   seasont<-paste('SeasonType=', "Playoffs&", sep="")
