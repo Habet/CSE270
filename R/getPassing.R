@@ -17,8 +17,6 @@ getPassing<-function(year, playerID, seasonType="Regular"){
     seasont<-paste('SeasonType=', "Playoffs&", sep="")
   }
 
-  seasont<-paste('SeasonType=', "Playoffs&", sep="")
-
   pl_id<-paste('PlayerID=', playerID, '&', sep="")
 
   link<-paste('http://stats.nba.com/stats/playerdashptpass?',
