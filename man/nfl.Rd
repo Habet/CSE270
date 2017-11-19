@@ -28,7 +28,13 @@ stadium_location: The location of the stadium: City and state abbreviation
 
 result: The result of the game: H=Home Win, T=Tie, A=Away Win
 
-spread: points spread, the difference between away team and home team scores}
+spread: points spread, the difference between away team and home team scores
+
+home_odds_open: Opening decimal odds for the home team
+
+away_odds_open: Openning decimal odds for the away team (The data is missing for some seasons)
+
+Source for odds: http://www.aussportsbetting.com/data/historical-nfl-results-and-odds-data/}
 \usage{
 data(nfl)
 }
