@@ -31,13 +31,13 @@
 #'
 #' spread: points spread, the difference between away team and home team scores
 #'
-#' home_odds_open: Opening decimal odds for the home team
+#' home_odds_open, home_odds_close: Opening and closing decimal odds for the home team
 #'
-#' away_odds_open: Openning decimal odds for the away team (The data is missing for some seasons)
+#' away_odds_open, away_odds_open: Opening and closing decimal odds for the away team (The data is missing for some seasons)
 #'
 #' Source for odds: http://www.aussportsbetting.com/data/historical-nfl-results-and-odds-data/
 #'
 #'
-#' @keywords nfl
+#' @keywords nfl, Elo rating, betting strategy
 #'
 "nfl"
