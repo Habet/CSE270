@@ -3,4 +3,5 @@
 export(getPassing)
 export(getPlayerBio)
 export(getPlayerID)
+export(poissb)
 importFrom(jsonlite,fromJSON)
