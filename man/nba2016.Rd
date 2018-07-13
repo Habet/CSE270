@@ -66,4 +66,3 @@ data(nba2016)
 Data on NBA players 2015-2016
 }
 \keyword{nba}
-

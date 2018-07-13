@@ -15,4 +15,3 @@ dataframe with player names, ids, team names and ids
 \description{
 Gets player and team IDs for active roster for the given season
 }
-

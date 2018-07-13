@@ -21,4 +21,3 @@ Miscellaneous data on NBA team statistics, season 2016-2017
 }
 \keyword{nba,}
 \keyword{skill_luck}
-

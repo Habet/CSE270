@@ -32,4 +32,3 @@ MLB final standings, 1999-2017, Regular season
 \keyword{luck}
 \keyword{mlb,}
 \keyword{skill}
-

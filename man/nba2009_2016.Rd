@@ -30,4 +30,3 @@ data(nba2009_2016)
 Data on NBA games for regular season: 2009-2016
 }
 \keyword{nba}
-

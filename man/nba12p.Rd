@@ -18,4 +18,3 @@ NBA player statistics for 2011-2012 from BasketValue
 \keyword{NBA,}
 \keyword{Plus/Minus}
 \keyword{Plus/Minus,}
-

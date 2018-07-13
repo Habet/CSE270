@@ -24,4 +24,3 @@ Passing data from FIFA WC 2014 Final
 \keyword{analysis}
 \keyword{network}
 \keyword{soccer,}
-

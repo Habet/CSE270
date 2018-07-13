@@ -36,4 +36,3 @@ NBA stint time statistics for calculation of plus/minus/ 2011-2012
 \keyword{NBA,}
 \keyword{Plus/Minus}
 \keyword{Plus/Minus,}
-

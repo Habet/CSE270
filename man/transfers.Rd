@@ -35,4 +35,3 @@ data(transfers)
 Data on football transfers. Each row is one transfer
 }
 \keyword{football}
-

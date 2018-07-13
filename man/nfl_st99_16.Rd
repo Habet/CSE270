@@ -34,4 +34,3 @@ NFL final standings, 1999-2016, Regular season
 \keyword{luck}
 \keyword{nfl,}
 \keyword{skill}
-

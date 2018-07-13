@@ -46,4 +46,3 @@ Data on NFL matches
 \keyword{nfl,}
 \keyword{rating,}
 \keyword{strategy}
-

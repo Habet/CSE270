@@ -37,4 +37,3 @@ Data final standings for Serie A - 1996-2017
 \keyword{A}
 \keyword{Serie}
 \keyword{football,}
-

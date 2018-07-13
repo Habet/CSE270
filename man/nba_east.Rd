@@ -29,4 +29,3 @@ data(nba_east)
 Data on NBA final standings, Eastern Conference, 1991-2017
 }
 \keyword{NBA}
-

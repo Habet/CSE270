@@ -78,4 +78,3 @@ poissb(df = iris, season = TRUE, year = 22010, team = "Cleveland Cavaliers", opp
 Author: Yuri Shahnazaryan
 
 }
-

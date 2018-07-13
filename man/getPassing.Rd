@@ -19,4 +19,3 @@ dataframe with players passing statistics
 \description{
 Gets players passing statistics for the given season
 }
-

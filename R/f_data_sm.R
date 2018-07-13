@@ -4,9 +4,9 @@
 #'
 #' @usage data(f_data_sm)
 #'
-#' @format A data frame with 80913 rows and 11 variables
+#' @format A data frame with 84365 rows and 11 variables
 #'
-#' SEASON: from 1994-2017
+#' SEASON: from 1994-2018
 #'
 #' COUNTRY: The country of the league: "Germany", "Belgium", "Netherlands", "England", "Greece"
 #' "Portugal", "Scotland", "Turkey", "Spain", "France", "Italy"

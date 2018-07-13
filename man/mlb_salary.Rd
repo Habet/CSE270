@@ -29,4 +29,3 @@ MLB salaries, 1999-2016
 \keyword{balance}
 \keyword{competitive}
 \keyword{mlb,}
-

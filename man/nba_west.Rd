@@ -29,4 +29,3 @@ data(nba_west)
 Data on NBA final standings, Western Conference, 1991-2017
 }
 \keyword{NBA}
-

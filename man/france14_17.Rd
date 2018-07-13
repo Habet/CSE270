@@ -46,4 +46,3 @@ Season: 2014/2017: For the teams advanced from lower division, the standing is s
 \keyword{Poisson}
 \keyword{football,}
 \keyword{regression}
-
