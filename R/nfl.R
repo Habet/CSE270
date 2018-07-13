@@ -1,13 +1,13 @@
-#' Data on NFL matches
+#' Data on NFL matches/regular season
 #'
 #'
 #' @docType data
 #'
 #' @usage data(nfl)
 #'
-#' @format A data frame with 4336 rows and 13 variables
+#' @format A data frame with 4592 rows and 13 variables
 #'
-#' schedule_season: from 2000-2016
+#' schedule_season: from 2000-2017
 #'
 #' schedule_week: The number of the week when the game was played
 #'

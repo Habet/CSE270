@@ -3,10 +3,10 @@
 \docType{data}
 \name{nfl}
 \alias{nfl}
-\title{Data on NFL matches}
-\format{A data frame with 4336 rows and 13 variables
+\title{Data on NFL matches/regular season}
+\format{A data frame with 4592 rows and 13 variables
 
-schedule_season: from 2000-2016
+schedule_season: from 2000-2017
 
 schedule_week: The number of the week when the game was played
 
@@ -39,7 +39,7 @@ Source for odds: http://www.aussportsbetting.com/data/historical-nfl-results-and
 data(nfl)
 }
 \description{
-Data on NFL matches
+Data on NFL matches/regular season
 }
 \keyword{Elo}
 \keyword{betting}
