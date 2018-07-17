@@ -26,7 +26,7 @@ H_D; A_D: Number of draws home/away
 
 H_L; A_L: Number of lost games
 
-H_Goals; A_Goals: Numbr of goals scored prior to the round
+H_Goals; A_Goals: Number of goals scored prior to the round
 
 H_Diff; A_Diff: The goal difference for home/away teams
 
