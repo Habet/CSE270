@@ -1,8 +1,8 @@
 #' Data on Portugal Primera Liga 2016-2017: Games and standings before each round
-#' Season: 2016/2017: For the teams advanced from lower division, the standing is set to -1
+#' Season: 2016/2017: For the teams advanced from lower division, the standing is set to 19 and 20
 #' @docType data
 #'
-#' @usage data(portugal17)
+#' @usage data(portugal18)
 #'
 #' @format A data frame with 306 rows and 19 variables
 #'
@@ -34,4 +34,4 @@
 #' @keywords football, Poisson regression
 #'
 #' @source \href{http://www.worldfootball.net}{WorldFootball.net}
-"portugal17"
+"portugal18"
