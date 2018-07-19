@@ -1,5 +1,5 @@
-#' Data on Portugal Primera Liga 2016-2017: Games and standings before each round
-#' Season: 2016/2017: For the teams advanced from lower division, the standing is set to 19 and 20
+#' Data on Portugal Primera Liga 2017-2018: Games and standings before each round
+#' Season: 2017/2018: For the teams advanced from lower division, the standing is set to 19 and 20
 #' @docType data
 #'
 #' @usage data(portugal18)
