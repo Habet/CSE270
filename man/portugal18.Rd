@@ -3,8 +3,8 @@
 \docType{data}
 \name{portugal18}
 \alias{portugal18}
-\title{Data on Portugal Primera Liga 2016-2017: Games and standings before each round
-Season: 2016/2017: For the teams advanced from lower division, the standing is set to 19 and 20}
+\title{Data on Portugal Primera Liga 2017-2018: Games and standings before each round
+Season: 2017/2018: For the teams advanced from lower division, the standing is set to 19 and 20}
 \format{A data frame with 306 rows and 19 variables
 
 Home: The name of the home team
@@ -38,8 +38,8 @@ H_Standing; A_Standing: Standing in the league table before the round}
 data(portugal18)
 }
 \description{
-Data on Portugal Primera Liga 2016-2017: Games and standings before each round
-Season: 2016/2017: For the teams advanced from lower division, the standing is set to 19 and 20
+Data on Portugal Primera Liga 2017-2018: Games and standings before each round
+Season: 2017/2018: For the teams advanced from lower division, the standing is set to 19 and 20
 }
 \keyword{Poisson}
 \keyword{football,}
