@@ -16,7 +16,7 @@ AG: Full Time Away Team Goals
 
 Round: the number of the round (34 overall)
 
-The Season when the match was played (eg, season 2013/2014 is given as 2013)}
+The Season when the match was played (eg, season 2013/2014 is given as 2014)}
 \source{
 \href{http://www.worldfootball.net}{WorldFootball.net}
 }
