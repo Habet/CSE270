@@ -1,3 +1,13 @@
+#' @title Final League table
+#' @name final_table
+#' @aliases final_table
+#' @description Creates final league table
+#' @param data dataframe with the same structure as f_data_sm
+#' @param league The league for which the table is created
+#' @param season the season for which the table is returned, season 2017/2018 will be given as 2018
+#' @import dplyr
+#' @return dataframe with the final league standing
+#' @export
 final_table <- function(data, league, season){
 
   sa <- data %>%
