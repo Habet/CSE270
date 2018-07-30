@@ -3,8 +3,8 @@
 \docType{data}
 \name{nba_east}
 \alias{nba_east}
-\title{Data on NBA final standings, Eastern Conference, 1991-2017}
-\format{A data frame with 387 rows and 7 variables
+\title{Data on NBA final standings, Eastern Conference, 1991-2018}
+\format{A data frame with 414 rows and 7 variables
 
 Rank: The final standing
 
@@ -26,6 +26,6 @@ Season: The end year of the season (season 2011/2012 is recorded as 2012)}
 data(nba_east)
 }
 \description{
-Data on NBA final standings, Eastern Conference, 1991-2017
+Data on NBA final standings, Eastern Conference, 1991-2018
 }
 \keyword{NBA}
