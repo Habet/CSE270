@@ -8,6 +8,7 @@
 #' @import jsonlite
 #' @return dataframe with regular season results
 #' @export
+
 getBoxScore <- function(year) {
   season1 <- unlist(strsplit(as.character(year), ''))[3:4]
   season1 <- as.numeric(paste0(season1[1], season1[2])) + 1
@@ -21,6 +22,6 @@ getBoxScore <- function(year) {
   boxdata[,9:56] <- apply(boxdata[,9:56],2,as.numeric)
   boxdata$GAME_DATE <- as.Date(as.character(bb$GAME_DATE), format = "%Y-%m-%d")
   boxdata <- boxdata %>% mutate(GAME_DATE = as.Date(as.character(GAME_DATE), format = "%Y-%m-%d"))%>%
-    arrange(GAME_ID, ! grepl("@", MATCHUP))
+    arrange(GAME_ID, grepl("@", MATCHUP))
   return(boxdata)
 }
