@@ -20,7 +20,7 @@ getBoxScore <- function(year) {
   boxdata <- data.frame(JSlist$resultSets[1,3])
   names(boxdata) <- clnames
   boxdata[,9:56] <- apply(boxdata[,9:56],2,as.numeric)
-  boxdata$GAME_DATE <- as.Date(as.character(bb$GAME_DATE), format = "%Y-%m-%d")
+  boxdata$GAME_DATE <- as.Date(as.character(boxdata$GAME_DATE), format = "%Y-%m-%d")
   boxdata <- boxdata %>% mutate(GAME_DATE = as.Date(as.character(GAME_DATE), format = "%Y-%m-%d"))%>%
     arrange(GAME_ID, grepl("@", MATCHUP))
   return(boxdata)
