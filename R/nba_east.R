@@ -4,7 +4,7 @@
 #'
 #' @usage data(nba_east)
 #'
-#' @format A data frame with 414 rows and 7 variables
+#' @format A data frame with 414 rows and 9 variables
 #'
 #' Rank: The final standing
 #'
@@ -17,6 +17,10 @@
 #' Pct: Winning percentage
 #'
 #' GB:  Games Behind
+#'
+#' PS: Points Scored
+#'
+#' PA: Points Allowed
 #'
 #' Season: The end year of the season (season 2011/2012 is recorded as 2012)
 #'

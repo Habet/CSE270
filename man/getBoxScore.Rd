@@ -16,5 +16,5 @@ dataframe with regular season results
 Gets box score for for NBA regular season. Uses teamgamelogs? from stats.nba.com
 }
 \author{
-Vardan Kazaryan
+Vardan Kazaryan, Habet Madoyan
 }
