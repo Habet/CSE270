@@ -4,12 +4,12 @@
 \alias{final_table}
 \title{Final League table}
 \usage{
-final_table(data, league, season)
+final_table(data, country, season)
 }
 \arguments{
 \item{data}{dataframe with the same structure as f_data_sm}
 
-\item{league}{The league for which the table is created}
+\item{country}{The country for which the table is created}
 
 \item{season}{the season for which the table is returned, season 2017/2018 will be given as 2018}
 }
