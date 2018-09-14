@@ -10,18 +10,20 @@
 #' @export
 
 getBoxScore <- function(year) {
-  season1 <- unlist(strsplit(as.character(year), ''))[3:4]
-  season1 <- as.numeric(paste0(season1[1], season1[2])) + 1
-  url <- paste0('https://stats.nba.com/stats/teamgamelogs?DateFrom=&DateTo=&GameSegment=&LastNGames=0&LeagueID=00&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=Totals&Period=0&PlusMinus=N&Rank=N&Season=',
-                year, '-', season1, '&SeasonSegment=&SeasonType=Regular+Season&ShotClockRange=&VsConference=&VsDivision=')
+  year1 <- year+1
+  season1 <- substr(year1,3,4)
+  url <- paste0("https://stats.nba.com/stats/teamgamelogs?DateFrom=&DateTo=&GameSegment=&LastNGames=0&LeagueID=00&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=Totals&Period=0&PlusMinus=N&Rank=N&Season=",
+                year, "-", season1, "&SeasonSegment=&SeasonType=Regular+Season&ShotClockRange=&VsConference=&VsDivision=")
   rawurl <- suppressWarnings(readLines(url))
   JSlist <- fromJSON(rawurl)
-  clnames <- unlist(JSlist$resultSets[1,2])
-  boxdata <- data.frame(JSlist$resultSets[1,3])
+  clnames <- unlist(JSlist$resultSets[1, 2])
+  boxdata <- data.frame(JSlist$resultSets[1, 3])
   names(boxdata) <- clnames
-  boxdata[,9:56] <- apply(boxdata[,9:56],2,as.numeric)
-  boxdata$GAME_DATE <- as.Date(as.character(boxdata$GAME_DATE), format = "%Y-%m-%d")
-  boxdata <- boxdata %>% mutate(GAME_DATE = as.Date(as.character(GAME_DATE), format = "%Y-%m-%d"))%>%
-    arrange(GAME_ID, grepl("@", MATCHUP))
+  boxdata[, 9:56] <- apply(boxdata[, 9:56], 2, as.numeric)
+  boxdata$GAME_DATE <- as.Date(as.character(boxdata$GAME_DATE),
+                               format = "%Y-%m-%d")
+  boxdata <- boxdata %>% mutate(GAME_DATE = as.Date(as.character(GAME_DATE),
+                                                    format = "%Y-%m-%d")) %>% arrange(GAME_ID, grepl("@",
+                                                                                                     MATCHUP))
   return(boxdata)
 }
