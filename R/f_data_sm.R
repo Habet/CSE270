@@ -4,7 +4,7 @@
 #'
 #' @usage data(f_data_sm)
 #'
-#' @format A data frame with 84365 rows and 11 variables
+#' @format A data frame with 84364 rows and 14 variables
 #'
 #' SEASON: from 1994-2018
 #'
@@ -28,6 +28,8 @@
 #' FTAG: Full Time Away Team Goals
 #'
 #' FTTG: Full Time Total Goals
+#'
+#' B365H, B365D, B365A Betting odds (Home, Draw, Away) from Bet365
 #'
 #'
 #' @keywords football, Poisson

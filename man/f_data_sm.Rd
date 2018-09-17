@@ -4,7 +4,7 @@
 \name{f_data_sm}
 \alias{f_data_sm}
 \title{Data on football matches from www.football-data.co.uk-only major leagues and metrics}
-\format{A data frame with 84365 rows and 11 variables
+\format{A data frame with 84364 rows and 14 variables
 
 SEASON: from 1994-2018
 
@@ -27,7 +27,9 @@ FTHG: Full Time Home Team Goals
 
 FTAG: Full Time Away Team Goals
 
-FTTG: Full Time Total Goals}
+FTTG: Full Time Total Goals
+
+B365H, B365D, B365A Betting odds (Home, Draw, Away) from Bet365}
 \source{
 \href{http://www.football-data.co.uk/downloadm.php}{football data UK}
 }
