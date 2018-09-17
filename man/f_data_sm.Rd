@@ -29,7 +29,7 @@ FTAG: Full Time Away Team Goals
 
 FTTG: Full Time Total Goals
 
-B365H, B365D, B365A Betting odds (Home, Draw, Away) from Bet365}
+H, D, A Betting odds (Home, Draw, Away) from Bet365}
 \source{
 \href{http://www.football-data.co.uk/downloadm.php}{football data UK}
 }

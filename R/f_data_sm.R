@@ -29,7 +29,7 @@
 #'
 #' FTTG: Full Time Total Goals
 #'
-#' B365H, B365D, B365A Betting odds (Home, Draw, Away) from Bet365
+#' H, D, A Betting odds (Home, Draw, Away) from Bet365
 #'
 #'
 #' @keywords football, Poisson
