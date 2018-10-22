@@ -28,7 +28,7 @@ getPassing<-function(year, playerID, seasonType="Regular"){
               paste("Season=", y, "&", sep=""),
               'SeasonSegment=&', seasont, 'TeamID=0&',
               'VsConference=&', 'VsDivision=', sep="")
-  c<- readLines(link)
+  c<- suppressWarnings(readLines(link))
   k<-fromJSON(c)
   dd<-as.data.frame(k$resultSets$rowSet[1])
   colnames(dd)<-unlist(k$resultSets$headers[1])
