@@ -8,7 +8,6 @@
 #' @importFrom jsonlite fromJSON
 #' @return dataframe with players passing statistics
 #' @export
-
 getPassing<-function(year, playerID, seasonType="Regular"){
   y<-paste(year-1, "-", substr(year, 3,4), sep="")
   if (seasonType=="Regular"){
@@ -16,7 +15,6 @@ getPassing<-function(year, playerID, seasonType="Regular"){
   } else{
     seasont<-paste('SeasonType=', "Playoffs&", sep="")
   }
-
   pl_id<-paste('PlayerID=', playerID, '&', sep="")
 
   link<-paste('http://stats.nba.com/stats/playerdashptpass?',
@@ -30,15 +28,14 @@ getPassing<-function(year, playerID, seasonType="Regular"){
               'VsConference=&', 'VsDivision=', sep="")
   c<- suppressWarnings(readLines(link))
   k<-fromJSON(c)
-  dd<-as.data.frame(k$resultSets$rowSet[1])
-  colnames(dd)<-unlist(k$resultSets$headers[1])
+  dd<-as.data.frame(k$resultSets$rowSet[[1]], stringsAsFactors = F)
+  colnames(dd)<-k$resultSets$headers[[1]]
   colnames(dd)[8]<-"PASS_TEAMMATE_PLAYER_NAME"
-  dd1<-as.data.frame(k$resultSets$rowSet[2])
-  colnames(dd1)<-unlist(k$resultSets$headers[2])
+  dd1<-as.data.frame(k$resultSets$rowSet[2], stringsAsFactors = F)
+  colnames(dd1)<-k$resultSets$headers[[2]]
   colnames(dd1)[8]<-"PASS_TEAMMATE_PLAYER_NAME"
   dd<-rbind(dd,dd1)
   dd[,10:21]<-apply(dd[,10:21],2,as.numeric)
   dd$G <- as.numeric(as.character(dd$G))
-
   return(dd)
 }
