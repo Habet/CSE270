@@ -31,7 +31,7 @@ getPassing<-function(year, playerID, seasonType="Regular"){
   dd<-as.data.frame(k$resultSets$rowSet[[1]], stringsAsFactors = F)
   colnames(dd)<-k$resultSets$headers[[1]]
   colnames(dd)[8]<-"PASS_TEAMMATE_PLAYER_NAME"
-  dd1<-as.data.frame(k$resultSets$rowSet[2], stringsAsFactors = F)
+  dd1<-as.data.frame(k$resultSets$rowSet[[2]], stringsAsFactors = F)
   colnames(dd1)<-k$resultSets$headers[[2]]
   colnames(dd1)[8]<-"PASS_TEAMMATE_PLAYER_NAME"
   dd<-rbind(dd,dd1)
