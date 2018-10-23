@@ -41,7 +41,7 @@ getPassing<-function(year, playerID, seasonType="Regular"){
 
   a1 <- dd$PLAYER_NAME_LAST_FIRST
   a1 <- stringr::str_split(a1, ",", simplify = T)
-  x <- trimws(paste(x[,2], x[,1]))
+  x <- trimws(paste(a1[,2], a1[,1]))
   dd$PLAYER_NAME_LAST_FIRST <- x
   a1 <- dd$PASS_TEAMMATE_PLAYER_NAME
   a1 <- stringr::str_split(a1, ",", simplify = T)
