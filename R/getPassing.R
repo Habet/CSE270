@@ -47,5 +47,6 @@ getPassing<-function(year, playerID, seasonType="Regular"){
   a1 <- stringr::str_split(a1, ",", simplify = T)
   x <- trimws(paste(a1[,2], a1[,1]))
   dd$PASS_TEAMMATE_PLAYER_NAME <- x
+  colnames(dd)[2] <- "PLAYER_NAME"
   return(dd)
 }
