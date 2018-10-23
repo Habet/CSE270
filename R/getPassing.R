@@ -6,6 +6,7 @@
 #' @param playerID The player ID from NBA database.
 #' @param seasonType Regular, Playoffs, default is Regular
 #' @importFrom jsonlite fromJSON
+#' @importFrom stringr str_split
 #' @return dataframe with players passing statistics
 #' @export
 getPassing<-function(year, playerID, seasonType="Regular"){
@@ -37,5 +38,14 @@ getPassing<-function(year, playerID, seasonType="Regular"){
   dd<-rbind(dd,dd1)
   dd[,10:21]<-apply(dd[,10:21],2,as.numeric)
   dd$G <- as.numeric(as.character(dd$G))
+
+  a1 <- dd$PLAYER_NAME_LAST_FIRST
+  a1 <- stringr::str_split(a1, ",", simplify = T)
+  x <- trimws(paste(x[,2], x[,1]))
+  dd$PLAYER_NAME_LAST_FIRST <- x
+  a1 <- dd$PASS_TEAMMATE_PLAYER_NAME
+  a1 <- stringr::str_split(a1, ",", simplify = T)
+  x <- trimws(paste(a1[,2], a1[,1]))
+  dd$PASS_TEAMMATE_PLAYER_NAME <- x
   return(dd)
 }
