@@ -3,8 +3,8 @@
 \docType{data}
 \name{nfl_st}
 \alias{nfl_st}
-\title{NFL final standings, 1998-2017, Regular season}
-\format{A data frame with 635 rows and 16 variables
+\title{NFL final standings, 1998-2018, Regular season}
+\format{A data frame with 667 rows and 16 variables
 
 Tm: team name
 
@@ -44,7 +44,7 @@ Div: Division}
 data(nfl_st)
 }
 \description{
-NFL final standings, 1998-2017, Regular season
+NFL final standings, 1998-2018, Regular season
 }
 \keyword{and}
 \keyword{balance,}

@@ -1,10 +1,10 @@
-#' NFL final standings, 1998-2017, Regular season
+#' NFL final standings, 1998-2018, Regular season
 #'
 #' @docType data
 #'
 #' @usage data(nfl_st)
 #'
-#' @format A data frame with 635 rows and 16 variables
+#' @format A data frame with 667 rows and 16 variables
 #'
 #' Tm: team name
 #'
