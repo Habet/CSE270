@@ -3,8 +3,8 @@
 \docType{data}
 \name{seriea_st}
 \alias{seriea_st}
-\title{Data final standings for Serie A - 1996-2018}
-\format{A data frame with 442 rows and 10 variables
+\title{Data final standings for Serie A - 1996-2019}
+\format{A data frame with 482 rows and 10 variables
 
 Rank- Team's rank at the end of the season
 
@@ -32,7 +32,7 @@ Season: The end year of the season (season 2011/2012 is recorded as 2012)}
 data(seriea_st)
 }
 \description{
-Data final standings for Serie A - 1996-2018
+Data final standings for Serie A - 1996-2019
 }
 \keyword{A}
 \keyword{Serie}
