@@ -4,7 +4,7 @@
 #'
 #' @usage data(mlb_salary)
 #'
-#' @format A data frame with 608 rows and 6 variables
+#' @format A data frame with 638 rows and 6 variables
 #'
 #' Team: team name
 #'

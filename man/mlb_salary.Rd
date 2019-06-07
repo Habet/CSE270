@@ -4,7 +4,7 @@
 \name{mlb_salary}
 \alias{mlb_salary}
 \title{MLB salaries, 1999-2017}
-\format{A data frame with 608 rows and 6 variables
+\format{A data frame with 638 rows and 6 variables
 
 Team: team name
 
