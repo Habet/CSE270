@@ -3,8 +3,8 @@
 \docType{data}
 \name{nba_west}
 \alias{nba_west}
-\title{Data on NBA final standings, Western Conference, 1991-2018}
-\format{A data frame with 402 rows and 9 variables
+\title{Data on NBA final standings, Western Conference, 1991-2019}
+\format{A data frame with 417 rows and 9 variables
 
 Rank: The final standing
 
@@ -30,6 +30,6 @@ Season: The end year of the season (season 2011/2012 is recorded as 2012)}
 data(nba_west)
 }
 \description{
-Data on NBA final standings, Western Conference, 1991-2018
+Data on NBA final standings, Western Conference, 1991-2019
 }
 \keyword{NBA}
