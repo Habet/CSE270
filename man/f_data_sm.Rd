@@ -4,9 +4,9 @@
 \name{f_data_sm}
 \alias{f_data_sm}
 \title{Data on football matches from www.football-data.co.uk-only major leagues and metrics}
-\format{A data frame with 84364 rows and 14 variables
+\format{A data frame with 87816 rows and 14 variables
 
-SEASON: from 1994-2018
+SEASON: from 1994-2019
 
 COUNTRY: The country of the league: "Germany", "Belgium", "Netherlands", "England", "Greece"
 "Portugal", "Scotland", "Turkey", "Spain", "France", "Italy"
