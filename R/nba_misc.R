@@ -1,4 +1,4 @@
-#' Miscellaneous data on NBA team statistics, season 2018-2019
+#' Miscellaneous data on NBA team statistics, season 2016-2017
 #'
 #' @docType data
 #'
@@ -12,7 +12,7 @@
 #'
 #' variables with suffix _d, are showing defensive statistics
 #'
-#' https://www.basketball-reference.com/leagues/NBA_2019.html#misc_stats
+#' https://www.basketball-reference.com/leagues/NBA_2017.html#misc_stats
 #'
 #'
 #' @keywords nba, skill_luck

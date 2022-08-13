@@ -1,10 +1,10 @@
-#' Data on NBA final standings, Eastern Conference, 1991-2019
+#' Data on NBA final standings, Eastern Conference, 1991-2021
 #'
 #' @docType data
 #'
 #' @usage data(nba_east)
 #'
-#' @format A data frame with 429 rows and 9 variables
+#' @format A data frame with 474 rows and 9 variables
 #'
 #' Rank: The final standing
 #'

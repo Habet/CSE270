@@ -1,10 +1,10 @@
-#' Data on NBA final standings, Western Conference, 1991-2019
+#' Data on NBA final standings, Western Conference, 1991-2021
 #'
 #' @docType data
 #'
 #' @usage data(nba_west)
 #'
-#' @format A data frame with 417 rows and 9 variables
+#' @format A data frame with 462 rows and 9 variables
 #'
 #' Rank: The final standing
 #'

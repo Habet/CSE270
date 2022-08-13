@@ -1,4 +1,4 @@
-#' NFL final standings, 1998-2018, Regular season
+#' NFL final standings, 1998-2017, Regular season
 #'
 #' @docType data
 #'

@@ -1,10 +1,10 @@
-#' Data final standings for Serie A - 1996-2019
+#' Data final standings for Serie A - 1996-2022
 #'
 #' @docType data
 #'
 #' @usage data(seriea_st)
 #'
-#' @format A data frame with 482 rows and 10 variables
+#' @format A data frame with 542 rows and 10 variables
 #'
 #' Rank- Team's rank at the end of the season
 #'
