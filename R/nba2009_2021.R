@@ -1,10 +1,10 @@
-#' Data on NBA games for regular season: 2009-2017
+#' Data on NBA games for regular season: 2009-2021
 #'
 #' @docType data
 #'
 #' @usage data(nba2009_2021)
 #'
-#' @format A data frame with 10830 rows and 9 variables. Each row is one game
+#' @format A data frame with 15429 rows and 9 variables. Each row is one game
 #'
 #' Season_ID: 2009 stands for the season 2009-2010, etc
 #'
