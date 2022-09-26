@@ -5,7 +5,8 @@
 \alias{france14_17}
 \title{Data on France Ligue 1, 2014-2017: Games and standings before each round
 Season: 2014/2017: For the teams advanced from lower division, the standing is set to -1}
-\format{A data frame with 306 rows and 19 variables
+\format{
+A data frame with 306 rows and 19 variables
 
 Home: The name of the home team
 
@@ -32,7 +33,8 @@ H_Diff; A_Diff: The goal difference for home/away teams
 
 H_Pt; A_Pt: Points before the round for home and away teams
 
-H_Standing; A_Standing: Standing in the league table before the round}
+H_Standing; A_Standing: Standing in the league table before the round
+}
 \source{
 \href{http://www.worldfootball.net}{WorldFootball.net}
 }

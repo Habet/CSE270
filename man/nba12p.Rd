@@ -4,7 +4,9 @@
 \name{nba12p}
 \alias{nba12p}
 \title{NBA player statistics for 2011-2012 from BasketValue}
-\format{A data frame with 479 rows and 39 variables}
+\format{
+A data frame with 479 rows and 39 variables
+}
 \source{
 BasketValue
 }

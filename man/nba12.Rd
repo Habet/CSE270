@@ -4,7 +4,8 @@
 \name{nba12}
 \alias{nba12}
 \title{NBA stint time statistics for calculation of plus/minus/ 2011-2012}
-\format{A data frame with 25300 rows and 36 variables
+\format{
+A data frame with 25300 rows and 36 variables
 
 Each row is a distinct time period when a substition is made
 
@@ -22,7 +23,8 @@ Score at the end and begining of the time stint for hoem and away teams
 StartScoreHome, StartScoreAway, EndScoreHome, EndScoreAway
 
 Possession, points scored during the given time period
-PointsScoredHome, PointsScoredAway, PossessionsHome, PossessionsAway}
+PointsScoredHome, PointsScoredAway, PossessionsHome, PossessionsAway
+}
 \source{
 BasketValue
 }

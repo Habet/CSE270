@@ -3,8 +3,9 @@
 \docType{data}
 \name{nba_east}
 \alias{nba_east}
-\title{Data on NBA final standings, Eastern Conference, 1991-2019}
-\format{A data frame with 429 rows and 9 variables
+\title{Data on NBA final standings, Eastern Conference, 1991-2021}
+\format{
+A data frame with 474 rows and 9 variables
 
 Rank: The final standing
 
@@ -22,7 +23,8 @@ PS: Points Scored
 
 PA: Points Allowed
 
-Season: The end year of the season (season 2011/2012 is recorded as 2012)}
+Season: The end year of the season (season 2011/2012 is recorded as 2012)
+}
 \source{
 \href{http://www.landofbasketball.com}{Land of Basketball}
 }
@@ -30,6 +32,6 @@ Season: The end year of the season (season 2011/2012 is recorded as 2012)}
 data(nba_east)
 }
 \description{
-Data on NBA final standings, Eastern Conference, 1991-2019
+Data on NBA final standings, Eastern Conference, 1991-2021
 }
 \keyword{NBA}

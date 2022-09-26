@@ -3,8 +3,9 @@
 \docType{data}
 \name{mlb_standings}
 \alias{mlb_standings}
-\title{MLB final standings, 1999-2018, Regular season}
-\format{A data frame with 600 rows and 10 variables
+\title{MLB final standings, 1999-2017, Regular season}
+\format{
+A data frame with 690 rows and 10 variables
 
 season: The season, 2017 stands for the season 2017-2018
 
@@ -24,7 +25,8 @@ G: Number of games played
 
  RA: Runs allowed
 
- Rank: Rank within the division}
+ Rank: Rank within the division
+}
 \source{
 \href{https://www.baseball-reference.com}{www.baseball-reference.com}
 }
@@ -32,7 +34,7 @@ G: Number of games played
 data(mlb_standings)
 }
 \description{
-MLB final standings, 1999-2018, Regular season
+MLB final standings, 1999-2017, Regular season
 }
 \keyword{and}
 \keyword{balance,}

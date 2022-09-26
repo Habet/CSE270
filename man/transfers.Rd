@@ -4,7 +4,8 @@
 \name{transfers}
 \alias{transfers}
 \title{Data on football transfers. Each row is one transfer}
-\format{A data frame with 6248 rows and 10 variables
+\format{
+A data frame with 6248 rows and 10 variables
 
 Note: The dataset might be incomplete with some minor errors.
 Any help in updating or cleaning the dataset will be appreciated.
@@ -27,7 +28,8 @@ PRICE: The price of the transfer
 
 LEAGUE: The league where the player moved
 
-SEASON: The transfer season}
+SEASON: The transfer season
+}
 \usage{
 data(transfers)
 }

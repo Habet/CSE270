@@ -3,8 +3,9 @@
 \docType{data}
 \name{nba_misc}
 \alias{nba_misc}
-\title{Miscellaneous data on NBA team statistics, season 2018-2019}
-\format{A data frame with 30 rows and 26 variables
+\title{Miscellaneous data on NBA team statistics, season 2016-2017}
+\format{
+A data frame with 30 rows and 26 variables
 
 For variable definitions, look at the source
 
@@ -12,12 +13,13 @@ variables with suffix _o, are showing offensive statistics
 
 variables with suffix _d, are showing defensive statistics
 
-https://www.basketball-reference.com/leagues/NBA_2019.html#misc_stats}
+https://www.basketball-reference.com/leagues/NBA_2017.html#misc_stats
+}
 \usage{
 data(nba_misc)
 }
 \description{
-Miscellaneous data on NBA team statistics, season 2018-2019
+Miscellaneous data on NBA team statistics, season 2016-2017
 }
 \keyword{nba,}
 \keyword{skill_luck}

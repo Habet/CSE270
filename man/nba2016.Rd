@@ -4,7 +4,8 @@
 \name{nba2016}
 \alias{nba2016}
 \title{Data on NBA players 2015-2016}
-\format{A data frame with 578 rows and 29 variables
+\format{
+A data frame with 578 rows and 29 variables
 
 Player: Name of the player
 
@@ -58,7 +59,8 @@ TOV: Turnovers
 
 PF: Personal Fouls
 
-PTS: Points}
+PTS: Points
+}
 \usage{
 data(nba2016)
 }
