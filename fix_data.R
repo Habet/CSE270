@@ -19,3 +19,6 @@ mlb_standings <- mlb_standings %>%
 
 save(mlb_standings, file = "data/mlb_standings.rda")
 
+
+nba_players <- read.csv("./nba_players.csv")
+save(nba_players, file = "data/nba_players.rda") 
