@@ -1,4 +1,4 @@
-#' MLB salaries, 1999-2017
+#' MLB salaries, 1999-2023
 #'
 #' @docType data
 #'

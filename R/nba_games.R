@@ -1,8 +1,8 @@
-#' Data on NBA games for regular season: 2009-2021
+#' Data on NBA games for regular season: 2009-2022
 #'
 #' @docType data
 #'
-#' @usage data(nba2009_2021)
+#' @usage data(nba_games)
 #'
 #' @format A data frame with 15429 rows and 9 variables. Each row is one game
 #'
@@ -26,4 +26,4 @@
 #'
 #' @keywords nba
 #'
-"nba2009_2021"
+"nba_games"

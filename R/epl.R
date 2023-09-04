@@ -1,7 +1,7 @@
-#' Data on English Premier League, 2000-2022:
+#' Data on English Premier League, 2000-2023:
 #' @docType data
 #'
-#' @usage data(epl_00_22)
+#' @usage data(epl)
 #'
 #' @format A data frame with 8360 rows and 6 variables
 #'
@@ -20,4 +20,4 @@
 #' @keywords football, Elo ratings
 #'
 #' @source \href{http://www.worldfootball.net}{WorldFootball.net}
-"epl_00_22"
+"epl_00_23"
