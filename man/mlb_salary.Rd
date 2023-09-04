@@ -3,7 +3,7 @@
 \docType{data}
 \name{mlb_salary}
 \alias{mlb_salary}
-\title{MLB salaries, 1999-2017}
+\title{MLB salaries, 1999-2023}
 \format{
 A data frame with 608 rows and 6 variables
 
@@ -26,7 +26,7 @@ season: The season
 data(mlb_salary)
 }
 \description{
-MLB salaries, 1999-2017
+MLB salaries, 1999-2023
 }
 \keyword{balance}
 \keyword{competitive}

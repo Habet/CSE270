@@ -20,4 +20,4 @@
 #' @keywords football, Elo ratings
 #'
 #' @source \href{http://www.worldfootball.net}{WorldFootball.net}
-"epl_00_22"
+"epl_00_23"
