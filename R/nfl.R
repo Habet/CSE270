@@ -7,7 +7,7 @@
 #'
 #' @format A data frame with 4592 rows and 13 variables
 #'
-#' schedule_season: from 2000-2017
+#' schedule_season: from 2000-2021
 #'
 #' schedule_week: The number of the week when the game was played
 #'
