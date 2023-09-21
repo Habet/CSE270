@@ -5,9 +5,9 @@
 \alias{nfl}
 \title{Data on NFL matches/regular season}
 \format{
-A data frame with 4592 rows and 13 variables
+A data frame with 6712 rows and 13 variables
 
-schedule_season: from 2000-2021
+schedule_season: from 2000-2022
 
 schedule_week: The number of the week when the game was played
 
