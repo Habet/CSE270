@@ -11,3 +11,4 @@ get_events <- function(MatchesDF) {
   }
   stopCluster(cl)
   return (allclean(events.df))
+}

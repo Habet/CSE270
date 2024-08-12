@@ -7,7 +7,7 @@
 \format{
 A data frame with 84364 rows and 14 variables
 
-SEASON: from 1994-2023
+SEASON: from 1994-2024
 
 COUNTRY: The country of the league: "Germany", "Belgium", "Netherlands", "England", "Greece"
 "Portugal", "Scotland", "Turkey", "Spain", "France", "Italy"
