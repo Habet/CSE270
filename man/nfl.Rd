@@ -7,7 +7,7 @@
 \format{
 A data frame with 6712 rows and 13 variables
 
-schedule_season: from 2000-2022
+schedule_season: from 2000-2023
 
 schedule_week: The number of the week when the game was played
 
