@@ -1,4 +1,4 @@
-#' Data on NBA games for regular season: 2009-2022
+#' Data on NBA games for regular season: 2009-2023
 #'
 #' @docType data
 #'
