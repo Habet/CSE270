@@ -5,7 +5,7 @@
 #'
 #' @usage data(nfl)
 #'
-#' @format A data frame with 6712 rows and 13 variables
+#' @format A data frame with 7526 rows and 16 variables
 #'
 #' schedule_season: from 2000-2023
 #'
@@ -41,3 +41,5 @@
 #' @keywords nfl, Elo rating, betting strategy
 #'
 "nfl"
+
+

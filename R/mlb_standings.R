@@ -1,10 +1,10 @@
-#' MLB final standings, 1999-2017, Regular season
+#' MLB final standings since 1999
 #'
 #' @docType data
 #'
 #' @usage data(mlb_standings)
 #'
-#' @format A data frame with 690 rows and 10 variables
+#' @format A data frame with 780 rows and 10 variables
 #'
 #' season: The season, 2017 stands for the season 2017-2018
 #'

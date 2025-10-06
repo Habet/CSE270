@@ -3,9 +3,9 @@
 \docType{data}
 \name{nba_games}
 \alias{nba_games}
-\title{Data on NBA games for regular season: 2009-2023}
+\title{Data on NBA games for regular season since 2009}
 \format{
-A data frame with 15429 rows and 9 variables. Each row is one game
+A data frame with 20349 rows and 9 variables. Each row is one game
 
 Season_ID: 2009 stands for the season 2009-2010, etc
 
@@ -29,6 +29,6 @@ home.WL: The result of the game -W: home team won, L: home team lost
 data(nba_games)
 }
 \description{
-Data on NBA games for regular season: 2009-2023
+Data on NBA games for regular season since 2009
 }
 \keyword{nba}

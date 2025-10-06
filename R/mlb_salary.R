@@ -1,10 +1,10 @@
-#' MLB salaries, 1999-2023
+#' MLB salaries since 1999
 #'
 #' @docType data
 #'
 #' @usage data(mlb_salary)
 #'
-#' @format A data frame with 608 rows and 6 variables
+#' @format A data frame with 938 and 6 variables
 #'
 #' Team: team name
 #'
