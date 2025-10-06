@@ -1,9 +1,9 @@
-#' Data on English Premier League, 2000-2023:
+#' Data on English Premier League:
 #' @docType data
 #'
 #' @usage data(epl)
 #'
-#' @format A data frame with 8360 rows and 6 variables
+#' @format A data frame with 9500 rows and 6 variables
 #'
 #' Home: The name of the home team
 #'

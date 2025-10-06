@@ -3,9 +3,9 @@
 \docType{data}
 \name{epl}
 \alias{epl}
-\title{Data on English Premier League, 2000-2023:}
+\title{Data on English Premier League:}
 \format{
-A data frame with 8360 rows and 6 variables
+A data frame with 9500 rows and 6 variables
 
 Home: The name of the home team
 
@@ -26,7 +26,7 @@ The Season when the match was played (eg, season 2013/2014 is given as 2014)
 data(epl)
 }
 \description{
-Data on English Premier League, 2000-2023:
+Data on English Premier League:
 }
 \keyword{Elo}
 \keyword{football,}
