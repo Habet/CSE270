@@ -4,8 +4,50 @@ Title: CS270 Sports Analytics
 Version: 0.3.0
 Author: Who wrote it
 Maintainer: The package maintainer <yourself@somewhere.net>
-Description: Data files for the course CS270 Sports Analytics (American University of Armenia)
+Description: Data files and helper functions for the course CS270 Sports Analytics
+    (American University of Armenia). Core CRAN Imports and GitHub Remotes
+    (StatsBombR, SBpitch) are installed automatically with
+    remotes::install_github("HABET/CSE270"). Prefer scripts/install_CSE270.R
+    for a full course setup.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+Depends: R (>= 4.1.0)
+Imports:
+    BradleyTerry2,
+    caret,
+    circlize,
+    dplyr,
+    elo,
+    ggplot2,
+    glmnet,
+    glue,
+    igraph,
+    intergraph,
+    kableExtra,
+    knitr,
+    Matrix,
+    measures,
+    network,
+    odds.converter,
+    reshape2,
+    rlang,
+    rmarkdown,
+    SBpitch,
+    sna,
+    StatsBombR,
+    tidyr,
+    VGAM,
+    zoo
+Suggests:
+    doParallel,
+    foreach,
+    Lahman,
+    remotes,
+    tinytex,
+    UserNetR
+Remotes:
+    hudl/StatsBombR,
+    FCrSTATS/SBpitch,
+    DougLuke/UserNetR
 RoxygenNote: 7.3.2
