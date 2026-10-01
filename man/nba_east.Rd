@@ -3,9 +3,9 @@
 \docType{data}
 \name{nba_east}
 \alias{nba_east}
-\title{Data on NBA final standings, Eastern Conference, 1991-2021}
+\title{Data on NBA final standings, Eastern Conference, 1991-2026}
 \format{
-A data frame with 474 rows and 9 variables
+A data frame with 549 rows and 9 variables
 
 Rank: The final standing
 
@@ -26,12 +26,14 @@ PA: Points Allowed
 Season: The end year of the season (season 2011/2012 is recorded as 2012)
 }
 \source{
-\href{http://www.landofbasketball.com}{Land of Basketball}
+\href{http://www.landofbasketball.com}{Land of Basketball} through 2024.
+Seasons 2025 and 2026 are from
+\href{https://www.basketball-reference.com}{Basketball-Reference}.
 }
 \usage{
 data(nba_east)
 }
 \description{
-Data on NBA final standings, Eastern Conference, 1991-2021
+Data on NBA final standings, Eastern Conference, 1991-2026
 }
 \keyword{NBA}

@@ -1,10 +1,10 @@
-#' Data on NBA final standings, Eastern Conference, 1991-2021
+#' Data on NBA final standings, Eastern Conference, 1991-2026
 #'
 #' @docType data
 #'
 #' @usage data(nba_east)
 #'
-#' @format A data frame with 474 rows and 9 variables
+#' @format A data frame with 549 rows and 9 variables
 #'
 #' Rank: The final standing
 #'
@@ -26,5 +26,7 @@
 #'
 #' @keywords NBA
 #'
-#' @source \href{http://www.landofbasketball.com}{Land of Basketball}
+#' @source \href{http://www.landofbasketball.com}{Land of Basketball} through 2024.
+#'   Seasons 2025 and 2026 are from
+#'   \href{https://www.basketball-reference.com}{Basketball-Reference}.
 "nba_east"
